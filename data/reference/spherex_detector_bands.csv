@@ -1,0 +1,7 @@
+detector,bandpass_name,lambda_min_um,lambda_max_um,resolving_power_R,channels,paired_with,plain_label,good_for
+1,SPHEREx-D1,0.744,1.116,39,17,D4,Near-IR 0.74-1.12 um,Ordinary stars; brown dwarfs are faint here
+2,SPHEREx-D2,1.099,1.651,41,17,D5,Near-IR 1.10-1.65 um,Water absorption at 1.4 um
+3,SPHEREx-D3,1.636,2.421,41,17,D6,Near-IR 1.64-2.42 um,Water 1.9 um and methane 2.2 um
+4,SPHEREx-D4,2.423,3.822,35,17,D1,IR 2.42-3.82 um,Water ice 3.0 um and methane 3.3 um
+5,SPHEREx-D5,3.809,4.420,112,17,D2,IR 3.81-4.42 um,CO2 4.27 um; cold brown dwarfs appear
+6,SPHEREx-D6,4.412,5.002,128,17,D3,IR 4.41-5.00 um,CO 4.6 um; brightest band for the coldest brown dwarfs (WISE 0855)

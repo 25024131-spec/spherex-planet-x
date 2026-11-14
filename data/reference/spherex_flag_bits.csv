@@ -1,0 +1,14 @@
+bit,name,meaning,default_action
+0,TRANSIENT,Cosmic ray or other transient,mask
+1,OVERFLOW,Saturation onset,mask (important for bright test stars)
+2,SUR_ERROR,Ramp-fit problem,mask
+4,PHANTOM,Electronic artifact,mask
+5,REFERENCE,Reference pixel,mask
+6,NONFUNC,Dead pixel,mask
+7,DICHROIC,Strong dichroic attenuation (D3 and D4 only),mask
+9,MISSING_DATA,Missing data,mask
+10,HOT,Noisy pixel,mask
+11,COLD,Dead pixel,mask
+17,PERSIST,Persistence from an earlier bright source (ghosts),mask
+21,SOURCE,Known catalogue source,keep (benign)
+# NOTE,Bit numbers changed between pipeline versions. In code always build the mask from the MP_* keywords in each file's FLAGS header; use this table only as a human reference.,,
